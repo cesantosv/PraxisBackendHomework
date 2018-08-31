@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-# praxisback
+
+# PraxisBackendHomework
 
 ## Description
 
@@ -37,6 +37,6 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-=======
-# PraxisBackendHomework
->>>>>>> c8d2b8f91be39aacc55af16dd531ca49d627cf52
+
+
+
