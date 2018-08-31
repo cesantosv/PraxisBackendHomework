@@ -1,6 +1,6 @@
 
 # PraxisBackendHomework
-
+ Swagger http://localhost:3000/api/#/
 ## Description
 
 PraxisBackend
