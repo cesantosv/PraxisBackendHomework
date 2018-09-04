@@ -1,15 +1,17 @@
 import { NestFactory } from '@nestjs/core';
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 import { AppModule } from './app.module';
+import * as cors from 'cors';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
-  app.enableCors({
+  app.use(cors());
+  /*app.enableCors({
     origin: '*',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     preflightContinue: false,
     optionsSuccessStatus: 204,
-  });
+  });*/
   const options = new DocumentBuilder()
     .setTitle('Todos example')
     .setDescription('The Todos API description')
