@@ -1,6 +1,6 @@
 
 # PraxisBackendHomework
- Swagger https://praxisheroku.herokuapp.com/api/
+ Swagger http://praxisheroku.herokuapp.com/api/
 ## Description
 
 PraxisBackend
