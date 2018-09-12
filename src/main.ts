@@ -17,6 +17,7 @@ async function bootstrap() {
     .setDescription('The Todos API description')
     .setVersion('1.0')
     .addTag('todos')
+    .setSchemes('https'||'http') // Permitir peticiones https
     .build();
   const document = SwaggerModule.createDocument(app, options);
   SwaggerModule.setup('api', app, document);
